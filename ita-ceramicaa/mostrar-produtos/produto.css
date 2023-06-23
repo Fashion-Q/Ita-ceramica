@@ -1,0 +1,43 @@
+main{
+    padding-bottom: 50px;
+}
+
+main section{
+    display: block;
+    padding-top: 70px;
+}
+
+.produto-imagem{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+}
+
+.produto-descricao{
+    width: 90%;
+    text-align: justify;
+    margin: 40px auto 0 auto;
+}
+
+.produto-descricao h1{
+    text-align: center;
+}
+
+section table{
+    border: 5px solid rgb(0, 0, 0);
+    color: white;
+    margin-left: 5%;
+}
+section table td{
+    padding: 15px;
+    /* border: 5px solid rgb(0, 0, 0); */
+}
+
+.color-one{
+    background-color: red;
+}
+
+.color-two{
+    background-color: blue;
+}

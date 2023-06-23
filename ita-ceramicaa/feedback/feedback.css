@@ -1,0 +1,15 @@
+main{
+    background-color: rgba(87, 87, 87, 0.123);
+    padding: 100px 0;
+}
+
+main div{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.quero-comprar{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}

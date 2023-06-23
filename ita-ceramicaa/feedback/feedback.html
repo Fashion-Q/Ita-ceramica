@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ita Cerâmica</title>
+    <link rel="stylesheet" href="../nav-foot.css">
+    <link rel="stylesheet" href="feedback.css">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="../imagens-principais/logo.png" alt="imagem-logo">
+            <ul>
+                <li>
+                    <a href="#">
+                        <p>Produto</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <p>Feedback</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <p>Sobre nós</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+        <form action="mailto:profeta.garoto@gmail.com?subject=Feedback%20Ita%20Cerâmicas" method="post" autocomplete="on"
+            enctype="text/plain" accept-charset="UTF-8">
+            <fieldset>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="Nome" size="60" autofocus><br><br>
+                <label for="email">E-mail:</label><br>
+                <input type="text" id="E-mail" name="E-mail" size="60"><br><br>
+                <label for="comentario">Comentário:</label><br>
+                <textarea name="Feedback" id="comentario" cols="30" rows="10"></textarea><br><br>
+                <label>Nível de Satisfação: </label>
+                <input id="sat" name="Contentamento" min="1" max="5" step="1" list="opc">
+                <datalist id="opc">
+                    <option>Muito ruim</option>
+                    <option>Ruim</option>
+                    <option>Normal</option>
+                    <option>Bom</option>
+                    <option>Muito Bom</option>
+                </datalist>
+                <br><br>
+                <input type="submit" class="quero-comprar" value="Enviar" onclick="alert('Obrigado pelo seu Comentário!')">
+                <input type="reset" class="quero-comprar" value="Resetar campos">
+            </fieldset>
+        </form>
+        <a href="../index.html">
+        <button class="quero-comprar">Voltar</button>
+    </a>
+    </div>
+    </main>
+
+
+
+
+    <footer>
+        <div class="Social-media">
+            <a href="#">
+                <img src="../imagens-principais/whatzap-verde-transparent.svg" alt="Whatsapp">
+            </a>
+            <a href="#">
+                <img src="../imagens-principais/whatzap-verde-transparent.svg" alt="Whatsapp">
+            </a>
+            <a href="#">
+                <img src="../imagens-principais/whatzap-verde-transparent.svg" alt="Whatsapp">
+            </a>
+        </div>
+        <ul>
+            <li>
+                <a href="#">Endereço</a>
+            </li>
+            <li>
+                <a href="#">Contatos</a>
+            </li>
+            <li>
+                <a href="#">Institucional</a>
+            </li>
+            <li>
+                <a href="#">Dúvidas</a>
+            </li>
+        </ul>
+
+        <p class="copyright">
+            &#169
+            2023 all rights resarve
+        </p>
+    </footer>
+</body>
+
+</html>

@@ -14,6 +14,20 @@ main section{
     font-size: 25px;
 }
 
+.produto-imagem img:hover{
+    transition: transform 1s;
+    transform: scale(1.1);
+}
+
+
+.produto-imagem p{
+    margin-bottom: 20px;
+}
+
+.produto-descricao p span{
+    font-weight: 900;
+}
+
 .produto-descricao{
     width: 90%;
     text-align: justify;
@@ -28,6 +42,7 @@ section table{
     border: 5px solid rgb(0, 0, 0);
     color: white;
     margin-left: 5%;
+    margin-top: 25px;
 }
 section table td{
     padding: 15px;

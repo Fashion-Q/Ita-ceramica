@@ -1,6 +1,15 @@
 .quero-comprar{
-    background-color: greenyellow;
+    
     border-radius: 16px;
     padding: 3px 6px;
     font-size: 18px;
+    box-shadow: 5px 5px;
+    background-color: rgb(172, 172, 172);
+}
+
+.quero-comprar:hover{
+    cursor: pointer;
+    transition: 500ms;
+    background-color: greenyellow;
+    
 }
